@@ -59,3 +59,26 @@ Note: Deciding to keep long scroll pages to reduce number of clicks (and hierarc
 ## Deployment
 
 ## Credits
+
+Notes coding 22/03/22 - 22/03/22
+
+Spent a while picking fonts - still not convinced on Lato
+Still to confirm secondary colour - 
+Spent a while doing layout - to look more into flex - bugs like making things go to right
+Stacking guide -  https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial
+Edit images first - makes life easier
+reffered to oslo hotel project
+media queries to make text center on mobile
+
+Tool used: https://www.softr.io/tools/svg-wave-generator
+Bootcamp documentation
+
+Bugs
+Images to fit in div - ended up giving up on relative/ absolute - I was confusing myself
+Nav - get to stick right
+adding justify-right to right hand image
+Added padding to section-row, make spacing fit better.
+
+Changes in design
+Might keep copy high - as suggested by mentor.
+Was looking for CSS shapes - found the wave tool and used a SVG

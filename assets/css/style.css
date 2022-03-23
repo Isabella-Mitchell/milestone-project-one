@@ -104,10 +104,16 @@ header {
 
 /*--------------------Home page */
 
-
-.home-image {
+.row-homepage {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.home-image {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .home-image img {
@@ -118,7 +124,7 @@ header {
 .right-hand-text {
     text-align: right;
     padding-top: 30px;
-    padding-bottom: 30px; 
+    padding-bottom: 0; 
     padding-right: 50px
 }
 
