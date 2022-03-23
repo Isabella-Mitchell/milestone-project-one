@@ -4,6 +4,10 @@
 
 /*--------------------Colours */
 
+body {
+    background-color: antiquewhite;
+}
+
 /*--------------------Special paddings/ margins/ text */
 
 /*--------------------Heading */
@@ -15,7 +19,8 @@ header {
 .logo {
     font-family: 'Josefin Sans', 'Lato', sans-serif;
     font-weight: 600;
-    margin: 20px 30px 20px 20px;
+    margin: 20px;
+    font-size: xx-large;
     text-decoration: none;
 }
 
@@ -29,3 +34,26 @@ header {
     font-weight: 400;
 }
 
+.jumbotron {
+    height: 40vh;
+    background: url('../images/Spash-image-Row-Gallery_0000s_0004_Artist.jpg') no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    padding: 2rem 2rem;
+
+    position: relative;
+}
+
+.jumbotron .container {
+    margin-left: 0;
+    padding-left: 5%;
+    background-color: antiquewhite;
+    border-radius: 15%;
+}
