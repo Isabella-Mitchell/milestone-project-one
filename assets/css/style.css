@@ -5,7 +5,7 @@
 /*--------------------Colours */
 
 body {
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 
 /*--------------------Special paddings/ margins/ text */
@@ -46,14 +46,35 @@ header {
     align-items: flex-end;
     justify-content: flex-start;
 
-    padding: 2rem 2rem;
+    padding-bottom: 0px;
+    padding-left: 0px;
 
     position: relative;
 }
 
 .jumbotron .container {
     margin-left: 0;
-    padding-left: 5%;
-    background-color: antiquewhite;
-    border-radius: 15%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.wave-background {
+    background-image: url('../images/wave (2).svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hero-byline {
+    z-index: 2;
+    position: absolute;
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 1600px) {
+    .wave-background {
+        margin: 0 0 -150px 0;
+    }
 }
