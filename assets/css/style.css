@@ -36,7 +36,7 @@ header {
 
 .jumbotron {
     height: 40vh;
-    background: url('../images/Spash-image-Row-Gallery_0000s_0004_Artist.jpg') no-repeat bottom fixed;
+    background: url('../images/Spash-image-Row-Gallery_0000s_0005_Artist.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,6 +50,7 @@ header {
     padding-left: 0px;
 
     position: relative;
+    overflow: hidden;
 }
 
 .jumbotron .container {
@@ -59,8 +60,6 @@ header {
 }
 
 .wave-background {
-    background-image: url('../images/wave (2).svg');
-    background-repeat: no-repeat;
     width: 100%;
     overflow: hidden;
     z-index: 1;
@@ -71,10 +70,19 @@ header {
     position: absolute;
 }
 
+.lead-hero {
+    text-align: center;
+    padding: 0 15px;
+}
+
 /* ----------------------------------------Media Queries */
 
-@media(min-width: 1600px) {
-    .wave-background {
-        margin: 0 0 -150px 0;
+@media(min-width: 992px) {
+    .jumbotron {
+        background: url('../images/Spash-image-Row-Gallery_0000s_0005_Artist.jpg') no-repeat top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
