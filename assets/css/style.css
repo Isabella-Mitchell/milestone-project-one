@@ -11,11 +11,7 @@ body {
 }
 
 .home-section-color-bg {
-    background-color: #c7b9a6;
-    background-color: #232323;
-    background-color: #ddd7c4;
-    background-color: #635422;
-    color: #ffffff
+    background-color: #ffffff;
 }
 
 /*--------------------Special paddings/ margins/ text */
@@ -39,7 +35,7 @@ h4 {
 
 .general-sub {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .inline-block {
@@ -62,7 +58,7 @@ header {
 
 .jumbotron {
     height: 40vh;
-    background: url('../images/Spash-image-Row-Gallery_0000s_0005_Artist.jpg') no-repeat center fixed;
+    background: url('../images/canvas-large-crop-blue-Row-Gallery.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,16 +129,13 @@ header {
     padding: 0 0 0 5px;
 }
 
-.left-hand-text button {
-    border-color: #232323
-}
-
+.left-hand-text button,
 .right-hand-text button {
-    border-color: #faebd7;
+    border-color: #232323;
+    color: #232323;
 }
 
 .right-hand-text button:hover {
-    color: #635422;
     background-color: #faebd7;
 }
 
@@ -155,8 +148,8 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #635422;
-    color: #fafafa;
+    background-color: #ccbeaa;
+    color: #232323;
     min-height: 120px;
     margin: 0;
 }
@@ -170,16 +163,9 @@ footer {
 }
 
 .social-links li a i {
-    /*
-    width: 32px;
-    height: 32px;
-    border-radius: 25%;
-        line-height: 7px;
-    padding: 12px 0;
-    */
     font-size: 32px;
     text-align: center;
-    color: #faebd7;
+    color:#232323;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -187,7 +173,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #ffffff;
+    color: #635422;
 }
 
 #footer-details {
@@ -203,7 +189,7 @@ footer {
 
 @media(min-width: 992px) {
     .jumbotron {
-        background: url('../images/Spash-image-Row-Gallery_0000s_0005_Artist.jpg') no-repeat top fixed;
+        background: url('../images/canvas-large-crop-Row-Gallery.jpg') no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
