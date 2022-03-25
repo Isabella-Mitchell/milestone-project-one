@@ -82,3 +82,22 @@ Added padding to section-row, make spacing fit better.
 Changes in design
 Might keep copy high - as suggested by mentor.
 Was looking for CSS shapes - found the wave tool and used a SVG
+
+25.03
+
+Added Footer
+Made buttons
+Improved homepage code
+Picked images
+Fewer bugs :)
+Created exhibiton page
+
+Added in hr header + footer colour - better ux
+
+check heading/ h2/ h1 on page
+
+change class names 'home'
+make better button rules
+
+Completed Froggy flex - https://flexboxfroggy.com/
+bootstrap docs

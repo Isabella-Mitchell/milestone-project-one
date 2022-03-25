@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-.home-section-color-bg {
+.page-section-color-bg {
     background-color: #ffffff;
 }
 
@@ -38,6 +38,11 @@ h4 {
     font-weight: 700;
 }
 
+.sub-page-header {
+    padding: 30px;
+    font-size: xx-large;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -54,6 +59,10 @@ header {
     margin: 20px;
     font-size: xx-large;
     text-decoration: none;
+}
+
+header hr {
+    margin: 0px;
 }
 
 .jumbotron {
@@ -144,6 +153,19 @@ header {
     background-color: #232323;
 }
 
+/* ----------------------------------------Site wide images */
+
+.small-image {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.small-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* ----------------------------------------Footer */
 
