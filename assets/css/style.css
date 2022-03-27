@@ -62,6 +62,9 @@ h4 {
     padding-bottom: 30px;
 }
 
+
+
+
 /*--------------------Heading */
 
 header {
@@ -195,18 +198,15 @@ footer {
     margin: 0;
 }
 
-.footer-address {
-    padding-bottom: 10px;
-}
-
-.social-links {
-    padding-bottom: 10px;
+#footer-details {
+    padding: 30px 15px 15px 15px;
 }
 
 .social-links li a i {
     font-size: 32px;
     text-align: center;
     color:#232323;
+    margin: 0;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -217,13 +217,13 @@ footer {
     color: #635422;
 }
 
-#footer-details {
-    padding: 20px;
+footer hr {
+    margin: 0px;
 }
 
 .copyright {
-    display: flex;
-    align-items: flex-end;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 /* ----------------------------------------Media Queries */
