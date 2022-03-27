@@ -47,6 +47,21 @@ h4 {
     display: inline-block;
 }
 
+.row-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.right-hand-text,
+.left-hand-text {
+    padding-top: 30px;
+}
+
+.two-buttons {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
 /*--------------------Heading */
 
 header {
@@ -108,64 +123,61 @@ header hr {
     padding: 0 15px 30px 15px;
 }
 
-/*--------------------Home page */
+/*-------------------- Buttons */
 
-.row-homepage {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.btn-outline-light i,
+.btn-outline-dark i {
+    font-size: 12px;
+    padding: 0 0 0 5px;
 }
 
-.home-image {
+.btn-outline-light,
+.btn-outline-dark {
+    border-color: #232323;
+    color: #232323;
+}
+
+.btn-outline-dark:hover {
+    color: #faebd7;
+    background-color: #232323;
+}
+
+.btn-outline-light:hover {
+    background-color: #faebd7;
+}
+
+/* ---------------------------------------- Images */
+
+.large-image {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.home-image img {
+.large-image .caption {
+    padding-top: 15px;
+}
+
+.large-image img {
     max-width: 100%;
     max-height: 100%;
-}
-
-.right-hand-text,
-.left-hand-text {
-    padding-top: 30px;
-}
-
-.left-hand-text button i,
-.right-hand-text button i {
-    font-size: 12px;
-    padding: 0 0 0 5px;
-}
-
-.left-hand-text button,
-.right-hand-text button {
-    border-color: #232323;
-    color: #232323;
-}
-
-.right-hand-text button:hover {
-    background-color: #faebd7;
-}
-
-.left-hand-text button:hover {
-    color: #faebd7;
-    background-color: #232323;
-}
-
-/* ----------------------------------------Site wide images */
-
-.small-image {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .small-image img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     max-width: 100%;
     max-height: 100%;
 }
+
+/*
+.small-image {
+    overflow: clear;
+}
+*/
 
 /* ----------------------------------------Footer */
 
