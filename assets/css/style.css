@@ -123,6 +123,13 @@ header hr {
     padding: 0 15px 30px 15px;
 }
 
+/*--------------------Page Headings */
+
+.page-nav-item {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /*-------------------- Buttons */
 
 .btn-outline-light i,
