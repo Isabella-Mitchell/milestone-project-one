@@ -101,3 +101,24 @@ make better button rules
 
 Completed Froggy flex - https://flexboxfroggy.com/
 bootstrap docs
+
+27.03.22
+
+Made artists page - contined updating spacing/ added containers
+
+28.03
+
+Made visit and started about page 
+
+To do
+finish about page
+make contact page
+neaten code
+Fill with content.
+
+Bugs
+Nav move - resolved - something to do with scroll bar appearing/ not appearing.
+Buttons not flush
+How to get here spacing
+check all divs and indentation
+buttons as links
