@@ -78,6 +78,9 @@ h4 {
     line-height: 2;
 }
 
+.transport-text p {
+    padding: 15px 0 15px 0;
+}
 
 /*--------------------Heading */
 
@@ -250,6 +253,18 @@ footer hr {
 .copyright {
     padding-top: 15px;
     padding-bottom: 30px;
+}
+
+/* ----------------------------------------Map */
+/* from coders coffee house project */
+#map-wrapper {
+    height: 360px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 /* ----------------------------------------Media Queries */
