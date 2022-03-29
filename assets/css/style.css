@@ -280,6 +280,20 @@ footer hr {
     border: none;
 }
 
+/*---------------------------------------- Form */
+
+.btn-dark {
+    width: 30%;
+    color: #ffffff;
+    background-color: #232323;
+}
+
+.btn-dark:hover {
+    color: #232323;
+    background-color: #faebd7;
+    border-color: #faebd7;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
