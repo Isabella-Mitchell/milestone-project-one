@@ -299,6 +299,7 @@ footer hr {
 @media(min-width: 992px) {
     .jumbotron {
         background: url('../images/canvas-large-crop-Row-Gallery.jpg') no-repeat center fixed;
+        /*bbackground: url('../images/Row-Gallery-Splash-artwork-5.jpg') no-repeat center fixed;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
