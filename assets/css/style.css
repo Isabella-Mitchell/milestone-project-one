@@ -78,9 +78,22 @@ h4 {
     line-height: 2;
 }
 
-.visit-text p {
+.visit-text {
     padding: 15px 0 15px 0;
 }
+
+/*--
+
+.services-text {
+    padding-top: 15px
+}
+
+.single-button {
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+--*/
 
 /*--------------------Heading */
 
@@ -258,7 +271,7 @@ footer hr {
 /* ----------------------------------------Map */
 /* from coders coffee house project */
 #map-wrapper {
-    height: 360px;
+    height: 410px;
 }
 
 #map {
@@ -279,3 +292,14 @@ footer hr {
     }
 }
 
+@media(min-width: 768px) {
+        #map-wrapper {
+            height: 300px;
+        }
+}
+
+@media(min-width: 1024px) {
+    #map-wrapper {
+        height: 410px;
+    }
+}
