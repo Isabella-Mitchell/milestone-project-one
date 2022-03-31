@@ -31,6 +31,12 @@ h4 {
 .title {
     font-family: 'Josefin Sans', 'Lato', sans-serif;
     font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.small-title {
+    font-family: 'Josefin Sans', 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .general-sub {

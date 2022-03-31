@@ -122,3 +122,16 @@ Buttons not flush
 How to get here spacing
 check all divs and indentation
 buttons as links
+
+
+31.03.
+
+Contact page
+Fixed jumbatron
+
+
+Questions
+Video
+Slideshow
+UX
+Using bootstrap classes/ css

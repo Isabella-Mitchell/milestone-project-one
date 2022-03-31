@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/e4ffee1eee.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Row Gallery</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/e4ffee1eee.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <title>Row Gallery</title>
+  </head>
+  <body>
+
+    <!--Nav - Sourced From Bootstrap Library-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
               <a class="navbar-brand" href="index.html">
                   <span class=logo>Row Gallery</span>
-                </a>
+              </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,194 +32,166 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Artists</a>
                   </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
                 </ul>
               </div>
-            </div>
-          </nav>
+          </div>
+        </nav>
     </header>
 
-
+    <!--Jumbotron - Sourced From Bootstrap Library-->
     <div class="jumbotron jumbotron-fluid">
-      
-        <img class="wave-background" src="assets/images/wave (7).svg" alt="wave background"/>
-
+      <!--Wave SVG - Sourced From External Library-->
+      <img class="wave-background" src="assets/images/wave (7).svg" alt="wave background"/>
     </div>
 
-    <!--
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <span class="slide-one d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <span class="slide-two d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <span class="slide-three d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/Row-Gallery-Splash-Paint-LR.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/Row-Gallery-Splash-artwork-4jpg.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </button>
-        </div>
-        -->
-      
-
+    <!--Homepage Hero Text-->
     <div class="container lead-hero">
-      <h1 class="title">Contemporary art gallery in Dungeness, UK</h1>
-      <p class="lead">Free exhibitions open daily</p>
-  </div>
-
-<section class="whats-on">
-  <div class="container-fluid page-section-color-bg">
-    <div class="container">
-      <div class="row row-section">
-        <div class="col-12 col-md-6 large-image d-flex justify-content-start">
-          <img src="/assets/images/Exhbition-image-homepage.jpg" alt="">
-        </div>
-        <div class="col-12 col-md-6 text-sm-right right-hand-text pr-sm-5">
-          <h2 class="title">
-            See What's On
-          </h2>
-          <p class="lead">
-            Short Description
-          </p>
-          <button type="button" class="btn btn-outline-light">Read More <i class="fa-solid fa-angle-right"></i></button>
-        </div>
-      </div>
+        <h1 class="title">The Home of Contemporary Art in Dungeness, UK</h1>
+        <p class="lead">Free exhibitions open daily</p>
     </div>
-  </div>
-</section>
 
-<section class="artists">
-    <div class="page-section-plain-bg">
-      <div class="container">
-        <div class="row row-section">
-          <div class="col-12 col-md-6 large-image order-sm-12 d-flex justify-content-end">
-            <img src="/assets/images/canvas-small_0000s_0001_Row-Gallery.jpg" alt="">
-          </div>
-          <div class="col-12 col-md-6 text-sm-left order-sm-1 left-hand-text pl-sm-5">
-            <h2 class="title">
-              Meet Our Artists
-            </h2>
-            <p class="lead">
-              Short Description
-            </p>
-            <button type="button" class="btn btn-outline-dark">Read More <i class="fa-solid fa-angle-right"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section class="about">
-  <div class="container-fluid page-section-color-bg">
-    <div class="container">
-      <div class="row row-section">
-        <div class="col-12 col-md-6 large-image d-flex justify-content-start">
-          <img src="/assets/images/canvas-small-home-sections_0000s_0002_row-gallery.jpg" alt="">
-        </div>
-        <div class="col-12 col-md-6 text-sm-right right-hand-text pr-sm-5">
-          <h2 class="title">
-            About Row Gallery
-          </h2>
-          <p class="lead">
-            Short Description + Plan your visit
-          </p>
-          <button type="button" class="btn btn-outline-light">Read More <i class="fa-solid fa-angle-right"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="about">
-  <div class="page-section-plain-bg">
-    <div class="container">
-      <div class="row row-section">
-        <div class="col-12 col-md-6 large-image order-sm-12 d-flex justify-content-end">
-          <img src="/assets/images/canvas-small-home-sections_0000s_0000_row-gallery.jpg" alt="">
-        </div>
-        <div class="col-12 col-md-6 text-sm-left order-sm-1 left-hand-text pl-sm-5">
-          <h2 class="title">
-            Get In Touch
-          </h2>
-          <p class="lead">
-            Short Description
-          </p>
-          <button type="button" class="btn btn-outline-dark">Read More <i class="fa-solid fa-angle-right"></i></button>
-        </div>
-      </div>
-      </div>
-  </div>
-</section>
-    
-
-<footer class="container-fluid">
-  <div class="container">
-    <div id="footer-details" class="row align-items-center">
-        <div class="col-sm-6 text-sm-left">
-              <h5 class="general-sub">Row Gallery</h5>
-              <p class="small">
-                  Row Gallery, Dungeness Road, Romney Marsh, TN29 9NB<br>
-                  Tel: 012 3456 7890<br>
-                  Email: contact@rowgallery.com
+    <!--What's On Homepage Section-->
+    <section>
+      <div class="container-fluid page-section-color-bg">
+        <div class="container">
+          <div class="row row-section">
+            <div class="col-12 col-md-6 large-image d-flex justify-content-start">
+              <img src="/assets/images/Exhbition-image-homepage.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 text-sm-right right-hand-text pr-sm-5">
+              <h2 class="title">
+                See What's On
+              </h2>
+              <p class="lead">
+                View Our Current Exhibitions
               </p>
-        </div>
-        <div class="col-sm-6 text-sm-right">
-            <ul class="list-inline social-links">
-              <span class="sr-only">Social Media</span>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa-brands fa-facebook-square" aria-hidden="true"></i> 
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
+              <button type="button" class="btn btn-outline-light">See What's On <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
         </div>
       </div>
-      <hr>
-      <div class="col-12 d-flex justify-content-center">
-        <p class="small copyright">
-            Copyright © 2022 Row Gallery
-        </p>
-    </div>
-    </div>
-  </div>
+    </section>
 
-</footer>
+    <!--Artists Homepage Section-->
+    <section>
+        <div class="page-section-plain-bg">
+          <div class="container">
+            <div class="row row-section">
+              <div class="col-12 col-md-6 large-image order-sm-12 d-flex justify-content-end">
+                <img src="/assets/images/canvas-small_0000s_0001_Row-Gallery.jpg" alt="">
+              </div>
+              <div class="col-12 col-md-6 text-sm-left order-sm-1 left-hand-text pl-sm-5">
+                <h2 class="title">
+                  Meet Our Artists
+                </h2>
+                <p class="lead">
+                  Discover Emerging Talent
+                </p>
+                <button type="button" class="btn btn-outline-dark">Meet Our Artists <i class="fa-solid fa-angle-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--About Homepage Section-->
+    <section>
+      <div class="container-fluid page-section-color-bg">
+        <div class="container">
+          <div class="row row-section">
+            <div class="col-12 col-md-6 large-image d-flex justify-content-start">
+              <img src="/assets/images/canvas-small-home-sections_0000s_0002_row-gallery.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 text-sm-right right-hand-text pr-sm-5">
+              <h2 class="title">
+                About Row Gallery
+              </h2>
+              <p class="lead">
+                Our Story and How To Find Us
+              </p>
+              <button type="button" class="btn btn-outline-light">Plan Your Visit <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Homepage Section-->
+    <section>
+      <div class="page-section-plain-bg">
+        <div class="container">
+          <div class="row row-section">
+            <div class="col-12 col-md-6 large-image order-sm-12 d-flex justify-content-end">
+              <img src="/assets/images/canvas-small-home-sections_0000s_0000_row-gallery.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 text-sm-left order-sm-1 left-hand-text pl-sm-5">
+              <h2 class="title">
+                Get In Touch
+              </h2>
+              <p class="lead">
+                Contact Us Today
+              </p>
+              <button type="button" class="btn btn-outline-dark">Get In Touch <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!--Footer-->
+    <!--social-links ul originally taken from CV Code Institute project-->
+    <footer class="container-fluid">
+      <div class="container">
+        <div id="footer-details" class="row align-items-center">
+            <div class="col-sm-6 text-sm-left">
+                  <h5 class="general-sub">Row Gallery</h5>
+                  <p class="small">
+                      Row Gallery, Dungeness Road, Romney Marsh, TN29 9NB<br>
+                      Tel: 012 3456 7890<br>
+                      Email: contact@rowgallery.com
+                  </p>
+            </div>
+            <div class="col-sm-6 text-sm-right">
+                <ul class="list-inline social-links">
+                  <span class="sr-only">Social Media</span>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa-brands fa-facebook-square" aria-hidden="true"></i> 
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="col-12 d-flex justify-content-center">
+          <p class="small copyright">
+              Copyright © 2022 Row Gallery
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

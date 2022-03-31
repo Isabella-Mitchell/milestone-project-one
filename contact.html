@@ -30,9 +30,6 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Artists</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Visit</a>
-                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
                     </li>
@@ -59,48 +56,55 @@
                     Get In Touch
                   </h2>
                 </div>
-                  <p class="lead">
-                    Short Description
-                    Tel:
-                    Email:
+                  <p class="lead pr-lg-5">
+                    Please fill in the form and we will get back to you soon
                   </p>
                 </div>
                 <div class="col-12 col-md-12 col-lg-8 right-hand-text">
-                  <form>
+                  <form form method="POST" action="https://formdump.codeinstitute.net/">
                     <div class="form-row text-left">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                      <div class="form-group col-md-3">
+                        <label for="inputFirstName">First Name*</label>
+                        <input type="text" class="form-control" id="inputFirstame" name="first_name" required>
+                      </div>
+                      <div class="form-group col-md-3">
+                        <label for="inputLastName">Last Name*</label>
+                        <input type="text" class="form-control" id="inputLastName" name="last_name" required>
                       </div>
                       <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4">
+                        <label for="inputEmail">Email*</label>
+                        <input type="email" class="form-control" id="inputEmail" name="email_address" required>
                       </div>
                     </div>
                     <div class="form-group text-left">
-                      <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>...</option>
+                      <label for="inputType">Nature of Enquiry*</label>
+                        <select id="inputType" class="form-control" name="enquiry_type" required>
+                          <option selected>Please select</option>
+                          <option>Book a Consultation (in person)</option>
+                          <option>Book a Consultation (on the phone)</option>
+                          <option>Enquiry about Artist or Artwork</option>
+                          <option>Visiting Information</option>
+                          <option>Other</option>
                         </select>
                     </div>
                     <div class="form-row text-left">
+                      <p class="visit-text">If booking a consulation, please let us know your phone number, and preferred date and time below</p>
                       <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="tel" class="form-control" id="inputCity">
+                        <label for="inputTel">Phone Number</label>
+                        <input type="tel" class="form-control" id="inputTel" name="phone_number">
                       </div>
                       <div class="form-group col-md-4 text-left">
-                        <label for="inputCity">City</label>
-                        <input type="date" class="form-control" id="inputCity">
+                        <label for="inputDate">Date</label>
+                        <input type="date" class="form-control" id="inputDate" name="preferred_date">
                       </div>
                       <div class="form-group col-md-2 text-left">
-                        <label for="inputZip">Zip</label>
-                        <input type="time" class="form-control" id="inputZip">
+                        <label for="inputTime">Time</label>
+                        <input type="time" class="form-control" id="inputTime" name="preferred_time">
                       </div>
                     </div>
                     <div class="form-group text-left">
-                      <label for="exampleFormControlTextarea1">Example textarea</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+                      <label for="exampleFormControlTextarea">Message*</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea" rows="9" name="message" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-dark">Submit</button>
                   </form>
