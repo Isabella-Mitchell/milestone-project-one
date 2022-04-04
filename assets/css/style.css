@@ -191,8 +191,11 @@ header hr {
 
 /*------------------------------- Form & Back To Top Buttons */
 
-.btn-dark {
+.btn-third {
     width: 30%;
+}
+
+.btn-dark {
     color: #ffffff;
     background-color: #232323;
 }
@@ -204,7 +207,6 @@ header hr {
 }
 
 .btn-light {
-    width: 30%;
     color: #faebd7;
     background-color: #232323;
     border-color: #232323;
