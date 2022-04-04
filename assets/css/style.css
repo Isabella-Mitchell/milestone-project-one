@@ -83,6 +83,7 @@ h5 {
 
 /*---- SPMT - Buttons */
 
+.one-button,
 .two-buttons {
     padding-top: 15px;
     padding-bottom: 30px;
@@ -188,7 +189,7 @@ header hr {
     background-color: #faebd7;
 }
 
-/*------------------------------- Form Buttons */
+/*------------------------------- Form & Back To Top Buttons */
 
 .btn-dark {
     width: 30%;
@@ -200,6 +201,19 @@ header hr {
     color: #232323;
     background-color: #faebd7;
     border-color: #faebd7;
+}
+
+.btn-light {
+    width: 30%;
+    color: #faebd7;
+    background-color: #232323;
+    border-color: #232323;
+}
+
+.btn-light:hover {
+    color: #232323;
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
 
 /* ---------------------------------------- Images */
