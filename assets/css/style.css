@@ -99,6 +99,11 @@ h5 {
     margin-right: 30px;
 }
 
+.page-nav-item a {
+    text-decoration: none;
+    color:#232323;
+}
+
 .sub-page-header {
     padding: 30px 0 15px 0;
     font-size: xx-large;
@@ -149,17 +154,6 @@ header hr {
     padding-left: 2%;
     padding-top: 2%;
 }
-
-/*
-.slide-one, .slide-two, .slide-three {
-    height: 40vh;
-    background: url('../images/Row-Gallery-Splash-Modern-LR-mob.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
 
 .wave-background {
     width: 100%;
@@ -243,6 +237,17 @@ header hr {
     max-height: 100%;
 }
 
+/* ----------------------------------------Carousel Slideshow */
+
+.slide-one, .slide-two, .slide-three {
+    height: 40vh;
+    background: url('../images/Row-Gallery-Splash-Modern-LR-mob.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
@@ -298,7 +303,6 @@ footer hr {
 
 /* ------- MQ - Jumbatron image */
 
-
 @media(min-width: 992px) {
     .jumbotron {
         background: url('../images/Row-Gallery-Splash-Modern-LR.jpg') no-repeat center;
@@ -308,7 +312,6 @@ footer hr {
         background-size: cover;
     }
 }
-
 
 /* ------- MQ - Map Size */
 
@@ -321,5 +324,17 @@ footer hr {
 @media(min-width: 1024px) {
     #map-wrapper {
         height: 410px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .lead-hero h1 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 320px) {
+    .lead-hero h1 {
+        font-size: 28px;
     }
 }
