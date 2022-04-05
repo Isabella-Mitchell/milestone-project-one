@@ -167,6 +167,7 @@ header hr {
 }
 
 /*---------------------------------------- Buttons */
+/* Button classes sourced from Bootstrap documentation */
 
 .btn-outline-light i,
 .btn-outline-dark i {
@@ -190,6 +191,7 @@ header hr {
 }
 
 /*------------------------------- Form & Back To Top Buttons */
+/* Button classes sourced from Bootstrap documentation */
 
 .btn-third {
     width: 30%;
@@ -277,6 +279,11 @@ footer {
     color: #232323;
     min-height: 120px;
     margin: 0;
+}
+
+.contact-details p a {
+    color: #232323;
+    text-decoration: none;
 }
 
 /* class name and css originally from CV CI project */
