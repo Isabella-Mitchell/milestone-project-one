@@ -36,14 +36,14 @@ h5 {
 /*----- SPMT - Sections */
 
 .row-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .page-section-plain-bg {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -53,7 +53,7 @@ h5 {
 .title {
     font-family: 'Josefin Sans', 'Lato', sans-serif;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding-bottom: 16px;
 }
 
 .small-title {
@@ -70,7 +70,7 @@ h5 {
 
 .right-hand-text,
 .left-hand-text {
-    padding-top: 30px;
+    padding-top: 28px;
 }
 
 .exhibition-text {
@@ -78,26 +78,26 @@ h5 {
 }
 
 .visit-text {
-    padding: 15px 0 15px 0;
+    padding: 16px 0 16px 0;
 }
 
 /*---- SPMT - Buttons */
 
 .one-button,
 .two-buttons {
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 12px;
+    padding-bottom: 28px;
 }
 
 .two-buttons a {
-    margin: 5px;
+    margin: 8px;
 }
 
 /*----- SMPT - Page heading & sub nav */
 
 .page-nav-item {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 28px;
+    margin-right: 28px;
 }
 
 .page-nav-item a {
@@ -106,7 +106,7 @@ h5 {
 }
 
 .sub-page-header {
-    padding: 30px 0 15px 0;
+    padding: 28px 0 16px 0;
     font-size: xx-large;
 }
 
@@ -150,11 +150,15 @@ header hr {
     position: relative;
 }
 
+/*
+
 .jumbotron .container {
     margin-left: 0;
     padding-left: 2%;
     padding-top: 2%;
 }
+
+*/
 
 .wave-background {
     width: 100%;
@@ -163,7 +167,7 @@ header hr {
 
 .lead-hero {
     text-align: center;
-    padding: 15px 30px 30px 30px;
+    padding: 16px 32px 28px 32px;
 }
 
 /*---------------------------------------- Buttons */
@@ -172,7 +176,7 @@ header hr {
 .btn-outline-light i,
 .btn-outline-dark i {
     font-size: 12px;
-    padding: 0 0 0 5px;
+    padding: 0 4px 0 4px;
 }
 
 .btn-outline-light,
@@ -225,12 +229,12 @@ header hr {
 .large-image {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .large-image .caption {
-    padding-top: 15px;
+    padding-top: 16px;
 }
 
 .large-image img {
@@ -239,16 +243,16 @@ header hr {
 }
 
 .small-image img {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
     max-width: 100%;
     max-height: 100%;
 }
 
 .artist-portrait img {
-    padding-bottom: 30px;
+    padding-bottom: 28px;
     padding-left: 0;
     padding-right: 0;
     max-width: 100%;
@@ -288,7 +292,7 @@ footer {
 
 /* class name and css originally from CV CI project */
 #footer-details {
-    padding: 30px 15px 15px 15px;
+    padding: 32px 16px 16px 16px;
 }
 
 /* class name and css originally from CV CI project */
@@ -312,8 +316,8 @@ footer hr {
 }
 
 .copyright {
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 16px;
+    padding-bottom: 28px;
 }
 
 /* ----------------------------------------Map */
