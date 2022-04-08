@@ -11,6 +11,10 @@
 
 [View the live project here.](https://isabella-mitchell.github.io/milestone-project-one/)
 
+## Repository
+
+[Find the project repository here](https://github.com/Isabella-Mitchell/milestone-project-one)
+
 ## Screenshots 
 
 ### Home Page Screenshot
@@ -43,16 +47,33 @@ CONTENTS
     -   #### Art Collectors 
 
         *These are users who have an interest in the works by the artists represented by the gallery and may wish to buy artworks.*
+        
         * As an art collector I would like to see what artists are represented by the gallery. 
         * As an art collector I would like to see information about the artists and see examples of their work. 
         * As an art collector I would like to see information about the art gallery so that I know they are a respectable and trustworthy organisation. 
         * As an art collector I would like to be able to enquire about an artwork for sale. 
         * As an art collector I would like to be able to book a consultation either in person or virtually. 
 
-### Wireframes
+    -   #### Business Owners
+        *These are the owners of the gallery and of the website*
+        
+        * As the business owner, I want to feel that my business and brand are well represented by my online presence.
+        * As the business owner, I want my website to be accessible and user-friendly on any device.
+        * As the business owner, I want my website to feature links to my social media channels.
+    
 
-[View my wireframes in PDF form here.](wireframes/wireframes.pdf)
-[View my wireframes in PDF form here.](wireframes/wireframes-a4.pdf)
+- ### Site Structure
+    - The website has a Homepage, and then 4 further pages; Exhibitions, Artists, About and Contact.
+    - Each page is featured the nav bar, allowing the user to easily navigate between them without needing to go back to the homepage.
+    - On smaller device sizes, a 'Back To Top' button appears at the bottom of the screen
+    - Page Links listed at the top of each page allow users to quickly jump to content.
+    - Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. E.g. you can access the About page for visiting information from the Exhbitions page.
+    - The Footer remains consistant on each page.
+
+- ### Wireframes
+
+    [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
+
 ## Design
 
 ## Features
