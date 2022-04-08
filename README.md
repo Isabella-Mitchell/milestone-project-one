@@ -5,15 +5,22 @@
 
 * For this project, I have created a website for a fictitious art gallery called Row Gallery, located in Dungeness, UK. The focus of the design is to provide a good user experience and a structured layout of information. The website is responsive, so it is functional and looks good on any device screen size. 
 
-* DESCRIPTION OF SITE 
+* My website consists of a homepage to introduce the gallery and the main sections of the website. The site then has 4 pages, one with information about exhibitions, one with information about the gallery's artists, one with information about the gallery and visiting information and a contact page with a contact form.
 
 ## Live Project
 
-LINK TO LIVE PROJECT 
+[View the live project here.](https://isabella-mitchell.github.io/milestone-project-one/)
 
 ## Screenshots 
 
-MOCKUPS 
+### Home Page Screenshot
+<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive.jpg"></h2>
+
+### Exhibitions Page Screenshot
+<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive-exhibitions-1.jpg"></h2>
+
+### Artists Page Screenshot
+<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive-artists.jpg"></h2>
 
 # Table of Contents 
 
@@ -44,8 +51,8 @@ CONTENTS
 
 ### Wireframes
 
-LINK TO WIREFRAMES
-
+[View my wireframes in PDF form here.](wireframes/wireframes.pdf)
+[View my wireframes in PDF form here.](wireframes/wireframes-a4.pdf)
 ## Design
 
 ## Features
