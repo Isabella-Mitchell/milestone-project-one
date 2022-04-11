@@ -94,11 +94,16 @@ CONTENTS
 ### Icons
 - I used icons from Font Awesome to encourage users to click on buttons and to add clear visual indicators to sections on the About page.
 
-## Website Structure
+## Structure
 ### Information Architecture
 - The website has a Homepage, and then 4 further pages; Exhibitions, Artists, About and Contact.
-- The Homepage acts as a landing page, and includes links out to the other pages.
+    - Homepage - Landing page with brief descriptions and links out to the other pages.
+    - Exhibitions - Provides information (images and text) about 2 exhibitions
+    - Artists - Proivdes information (images and text) about 5 artists
+    - About - Provides information about the gallery plus visiting information including a map and directions
+    - Contact - Provides a contact form
 - Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. For example, you can access the About page for visiting information from the Exhibitions page. This saves repeating information, and helps keep the website clean and consise.
+- I decided  to keep long scroll pages rather than introduce further landing pages to reduce number of clicks the user needs to make to find information.
 
 ### Navigation Bar
 - Each page is featured the nav bar, allowing the user to easily navigate between them without needing to go back to the homepage.
@@ -107,13 +112,21 @@ CONTENTS
 - I have used the Bootstrap Navigation componant. I have overridden the default opacity because, when I tested the website using Chrome Lighthouse, the colour contrast was deemed insufficient.
 - For this reason, I have also added an underline to the 'active' page and to the hover state of non-active pages.
 
+<h2 align="center"><img src="assets/readme-images/design-nav-bar.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/design-nav-bar-mobile.jpg"></h2>
+
 ### Back To Top Button
 - Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on smaller device sizes, and saves user needing to scroll back up to the Navigation Bar.
 - The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
+<h2 align="center"><img src="assets/readme-images/design-back-to-top-mobile.jpg"></h2>
 
-### CTA/ Buttons
-- Buttons are consistant across the site. 
+### Buttons/ CTA
+- Buttons are consistent in design across the site. The colour of the button depends on the background colour.
 - Buttons feature a right arrow to encourage them to click and be taken to a new page.
+- Buttons change colour on hover state. The button text is legible both in its normal and hover state.
+- I have used a Bootstrap Button class
+<h2 align="center"><img src="assets/readme-images/buttons-dark.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/buttons-light.jpg"></h2>
 
 ### Page Heading & Sub Navigations.
 - All pages other than the homepage feature a Page Heading.
@@ -121,25 +134,84 @@ CONTENTS
 - This means that users can quickly find the section they are looking for, without needing to click through another page.
 - An underline appears underneath a link when it is hovered over. This further emphasises that this is a clickable link, and mirrors the behaviour of the main navigation bar.
 - Aria-Labels have been used to make their purpose clear to Screen Readers.
+<h2 align="center"><img src="assets/readme-images/design-page-header-highlight.jpg"></h2>
 
 ### Footer
 - The Footer includes the Gallery's address, phone number,email address and social media links.
 - The phone number and email address are tel: and mailto: links respectivaly.
 - Social Media links open in a new page.
 - The Footer remains consistant on each page.
+- The social media links code was originally sourced from Code Institute's Bootstrap CV project.
+<h2 align="center"><img src="assets/readme-images/design-footer-desktop.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/design-footer-mobile.jpg"></h2>
 
 ## Wireframes
 - [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
 
 # Features
 
-Note: Deciding to keep long scroll pages to reduce number of clicks (and hierarchacal navigation) Though conscious that mobile and tablet are long. To investigate back to top/ sticky nav.
+## Current Features
 
-Responsive on all device sizes
+### Responsive on all device sizes
+- Through using mobile first design I have created a website that is fully responsive on all screen sizes.
+- I have used the Bootstrap grid system and Flex classes to adjust the layout based the device screen size. This allows the images and texts to look good and be easy to read.
 
-Interactive elements
+### Interactive elements
+- Videos on the Artists Page feature controls so that the user can choose to play and pause them.
+- Image Caroseuls on the Exhibitions Page feature forward and back buttons that the user can use to control the images. It also includes an indicator so the user can see what slide they are on.
+- Google map iframe on the About Page show users the location of the hotel.
+- The Nav bar turns into a drop down navbar on smaller devices.
+- CSS transitions have been used on the nav bar, page sub-navigations, buttons and social media icons.
+
+## Future Features
+
+### Events
+- There could be an events section with a booking form, allowing users to book tickets for upcoming events.
+
+### Past Exhibitions
+- There could be an archive of past exhibitions
+
+### E-Commerce
+- There could be an online shop allowing users to buy art online.
 
 ## Technologies Used
+
+### Languages Used.
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks Libraries and Programs
+
+- [Bootstrap 4](https://getbootstrap.com/) 
+  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form, 
+  
+- [Google Fonts](https://fonts.google.com/)
+  - Two fonts were imported from google fonts. Josefin Sans for the headings, and Lato for the other text.
+  
+- [Font awesome](https://fontawesome.com/)
+  - I used icons from font awesome to visually distinguish sections of the text and on buttons.
+
+- [Git](https://git-scm.com/)
+  - Git was used as a version control in the terminal.
+
+- [Github](https://github.com/)
+  - Github was used to create and store the project repository.
+
+- [Gitpod](https://gitpod.io/)
+  - Gitpod was used to create my files and where I wrote the code.
+
+- [jQuery](https://jquery.com/)
+  - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+
+- [Balsamiq](https://balsamiq.com/)
+  - Balsamiq was used to create Wireframes for the project during the initial planning stage.
+
+- [Am I responsive](http://ami.responsivedesign.is/)
+  - Am i responsive was used to take screenshots of the page at different screen sizes.
+
+ADD MORE
 
 ## Testing
 
