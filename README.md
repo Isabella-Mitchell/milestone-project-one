@@ -84,8 +84,19 @@ I used the (Material Design Colour Tool)[https://material.io/resources/color/#!/
 
 ### Typography
 
-Headings are in Josefin Sans', 'Lato
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+Headings are in Josefin Sans and normal text is in Lato. Josefin Sans is a striking font which adds character to the website. Lato is a clean and easily readable font frequently used for websites and applications. Sans serif is the fallback font in case the font can not be imported into the site correctly.
+
+### Imagery
+
+Imagery is very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
+
+The pages feature different image layouts, due to the type of images that need to be displayed. I researched art gallery websites including Pace Gallery and Arusha Gallery to see the types of content that they typically display on their websites. I incorporated the following into my website:
+- Image Slideshows in landscape orientation on the Exhibition Page
+- Image captions on the Exhibitions Page
+- Artist Portraits on the Artist page
+
+Consistant image ratios have been used to bring a harmony to the site across different page layouts.
+- include 16:9 and 3:4.
 
 ## Features
 
