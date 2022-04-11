@@ -1,11 +1,9 @@
 # Row Gallery Website 
-## Milestone Project 1 
+## Milestone Project 1 - Static Front-End Website
 
-* The aim of this project is to build a static front-end website. The website is required to have at least 3 pages and be built using technologies I have learnt so far including HTML and CSS. The aim of the site is to provide value to both the user and the site owner through a clear presentation of data. 
+* Row Gallery is a contemporary art gallery located in Dungeness, UK. The aim of the Row Gallery website is to appeal to prospective gallery visitors and clients. The website is designed to be responsive so that it is user-friendly and looks appealing on any device.
 
-* For this project, I have created a website for a fictitious art gallery called Row Gallery, located in Dungeness, UK. The focus of the design is to provide a good user experience and a structured layout of information. The website is responsive, so it is functional and looks good on any device screen size. 
-
-* My website consists of a homepage to introduce the gallery and the main sections of the website. The site then has 4 pages, one with information about exhibitions, one with information about the gallery's artists, one with information about the gallery and visiting information and a contact page with a contact form.
+* This is my Milestone Project 1 submission for Code Institute's Diploma in Web Application Development course. My website features five pages and is built using technologies that I have learnt including HTML and CSS.
 
 ## Live Project
 
@@ -30,81 +28,116 @@
 
 CONTENTS 
 
-## User Experience (UX)
+# User Experience (UX)
 
--   ### User stories
 
-    -   #### Prospective Visitors
+## User stories
 
-        *These are users considering or already planning a trip to Dungeness and would be interested in visiting the art gallery during their trip.*
+### Prospective Visitors
 
-        * As a prospective visitor I would like to see what is currently on at the art gallery. 
-        * As a prospective visitor I would like to see when the gallery is open. 
-        * As a prospective visitor I would like to see information about the art gallery, and why I should pay a visit during my trip. 
-        * As a prospective visitor I would like to see the art gallery location and how to get there. 
-        * As a prospective visitor I would like to see what else there is to do near the art gallery.
- 
-    -   #### Art Collectors 
+*These are users considering or already planning a trip to Dungeness and would be interested in visiting the art gallery during their trip.*
 
-        *These are users who have an interest in the works by the artists represented by the gallery and may wish to buy artworks.*
-        
-        * As an art collector I would like to see what artists are represented by the gallery. 
-        * As an art collector I would like to see information about the artists and see examples of their work. 
-        * As an art collector I would like to see information about the art gallery so that I know they are a respectable and trustworthy organisation. 
-        * As an art collector I would like to be able to enquire about an artwork for sale. 
-        * As an art collector I would like to be able to book a consultation either in person or virtually. 
+* As a prospective visitor I would like to see what is currently on at the art gallery. 
+* As a prospective visitor I would like to see when the gallery is open. 
+* As a prospective visitor I would like to see information about the art gallery, and why I should pay a visit during my trip. 
+* As a prospective visitor I would like to see the art gallery location and how to get there. 
+* As a prospective visitor I would like to see what else there is to do near the art gallery.
 
-    -   #### Business Owners
-        *These are the owners of the gallery and of the website*
-        
-        * As the business owner, I want to feel that my business and brand are well represented by my online presence.
-        * As the business owner, I want my website to be accessible and user-friendly on any device.
-        * As the business owner, I want my website to feature links to my social media channels.
+### Art Collectors 
+
+*These are users who have an interest in the works by the artists represented by the gallery and may wish to buy artworks.*
+
+* As an art collector I would like to see what artists are represented by the gallery. 
+* As an art collector I would like to see information about the artists and see examples of their work. 
+* As an art collector I would like to see information about the art gallery so that I know they are a respectable and trustworthy organisation. 
+* As an art collector I would like to be able to enquire about an artwork for sale. 
+* As an art collector I would like to be able to book a consultation either in person or virtually. 
+
+### Business Owners
+*These are the owners of the gallery and of the website*
+
+* As the business owner, I want to feel that my business and brand are well represented by my online presence.
+* As the business owner, I want my website to be accessible and user-friendly on any device.
+* As the business owner, I want my website to feature links to my social media channels.
+
     
-
-- ### Site Structure
-    - The website has a Homepage, and then 4 further pages; Exhibitions, Artists, About and Contact.
-    - Each page is featured the nav bar, allowing the user to easily navigate between them without needing to go back to the homepage.
-    - On smaller device sizes, a 'Back To Top' button appears at the bottom of the screen
-    - Page Links listed at the top of each page allow users to quickly jump to content.
-    - Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. E.g. you can access the About page for visiting information from the Exhbitions page.
-    - The Footer remains consistant on each page.
-
-- ### Wireframes
-
-    [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
-
 ## Design
 
 ### Colour Scheme
+<h2 align="center"><img src="assets/readme-images/row-gallery-colours.jpg"></h2>
 
-A simple and refined colour scheme has been used. The pale backgrounds of the website mimic the pale walls of the gallery space, so that the images take centre stage. 
+- A simple and refined colour scheme has been used. The pale backgrounds of the website mimic the pale walls of the gallery space, so that the images take centre stage. 
 
-I used the (Material Design Colour Tool)[https://material.io/resources/color/#!/?view.left=0&view.right=0] to decide the footer colour. The footer colour is inkeeping with the palette yet distinguishes this section from the others on the page. 
+- The footer colour is inkeeping with the palette yet distinguishes this section from the others on the page. 
+
+- I used the [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) to decide on colour choices. 
 
 ### Typography
 
-Headings are in Josefin Sans and normal text is in Lato. Josefin Sans is a striking font which adds character to the website. Lato is a clean and easily readable font frequently used for websites and applications. Sans serif is the fallback font in case the font can not be imported into the site correctly.
+- Headings are in Josefin Sans and normal text is in Lato. Josefin Sans is a striking font which adds character to the website. Lato is a clean and easily readable font frequently used for websites and applications. Sans serif is the fallback font in case the font can not be imported into the site correctly.
 
 ### Imagery
 
-Imagery is very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
+- Imagery is very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
 
-The pages feature different image layouts, due to the type of images that need to be displayed. I researched art gallery websites including Pace Gallery and Arusha Gallery to see the types of content that they typically display on their websites. I incorporated the following into my website:
-- Image Slideshows in landscape orientation on the Exhibition Page
-- Image captions on the Exhibitions Page
-- Artist Portraits on the Artist page
+- The pages feature slightly different image layouts, due to the type of images that need to be displayed. I researched art gallery websites including [Pace Gallery](https://www.pacegallery.com/) and [Arusha Gallery](https://www.arushagallery.com/) to see the types of content that they typically display on their websites. I incorporated the following into my website:
+    - Image Slideshows in landscape orientation on the Exhibition Page
+    - Image captions on the Exhibitions Page
+    - Artist Portraits on the Artist page
 
-Consistant aspect ratios have been used to bring a harmony to the site across different page layouts.
-- An aspect ratio of 16:9 has been used for the lead images on the Exhibition Page and Artist Page  
-- An aspect ratio of 3:2 has been used for the Homepage section images and the About Page images
-- An aspect ratio of 2:3 has been used for the Artist Page portraits.
-- A near-square aspect ratio of 400:361 has been used for the Exhibition Page for images that do not suit the aspect ratio of the Image Carousel.
+- Consistant aspect ratios have been used to bring a harmony to the site across different page layouts.
+    - An aspect ratio of 16:9 has been used for the lead images on the Exhibition Page and Artist Page  
+    - An aspect ratio of 3:2 has been used for the Homepage section images and the About Page images
+    - An aspect ratio of 2:3 has been used for the Artist Page portraits.
+    - A near-square aspect ratio has been used on the Exhibition Page for images that do not suit the aspect ratio of the Image Carousel.
 
+### Icons
+- I used icons from Font Awesome to encourage users to click on buttons and to add clear visual indicators to sections on the About page.
 
-## Features
+## Website Structure
+### Information Architecture
+- The website has a Homepage, and then 4 further pages; Exhibitions, Artists, About and Contact.
+- The Homepage acts as a landing page, and includes links out to the other pages.
+- Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. For example, you can access the About page for visiting information from the Exhibitions page. This saves repeating information, and helps keep the website clean and consise.
+
+### Navigation Bar
+- Each page is featured the nav bar, allowing the user to easily navigate between them without needing to go back to the homepage.
+- The Naviagtion bar appears as a horizontal list on desktop, and a vertical drop down menu on mobile.
+- The Nav bar is not sticky, this means that the user can see more images and text on their screen.
+- I have used the Bootstrap Navigation componant. I have overridden the default opacity because, when I tested the website using Chrome Lighthouse, the colour contrast was deemed insufficient.
+- For this reason, I have also added an underline to the 'active' page and to the hover state of non-active pages.
+
+### Back To Top Button
+- Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on smaller device sizes, and saves user needing to scroll back up to the Navigation Bar.
+- The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
+
+### CTA/ Buttons
+- Buttons are consistant across the site. 
+- Buttons feature a right arrow to encourage them to click and be taken to a new page.
+
+### Page Heading & Sub Navigations.
+- All pages other than the homepage feature a Page Heading.
+- The Exhibitions, Artists and About pages feature a sub-navigation. These use ID names to allow website users to quickly jump to content.
+- This means that users can quickly find the section they are looking for, without needing to click through another page.
+- An underline appears underneath a link when it is hovered over. This further emphasises that this is a clickable link, and mirrors the behaviour of the main navigation bar.
+- Aria-Labels have been used to make their purpose clear to Screen Readers.
+
+### Footer
+- The Footer includes the Gallery's address, phone number,email address and social media links.
+- The phone number and email address are tel: and mailto: links respectivaly.
+- Social Media links open in a new page.
+- The Footer remains consistant on each page.
+
+## Wireframes
+- [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
+
+# Features
 
 Note: Deciding to keep long scroll pages to reduce number of clicks (and hierarchacal navigation) Though conscious that mobile and tablet are long. To investigate back to top/ sticky nav.
+
+Responsive on all device sizes
+
+Interactive elements
 
 ## Technologies Used
 
