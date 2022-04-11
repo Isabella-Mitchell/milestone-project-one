@@ -95,16 +95,6 @@ h5 {
 
 /*----- SMPT - Page heading & sub nav */
 
-.page-nav-item {
-    margin-left: 28px;
-    margin-right: 28px;
-}
-
-.page-nav-item a {
-    text-decoration: none;
-    color:#232323;
-}
-
 .sub-page-header {
     padding: 28px 0 16px 0;
     font-size: xx-large;
@@ -165,6 +155,9 @@ header hr {
     padding: 16px 32px 28px 32px;
 }
 
+/* Nav Bar Transitions */
+/* Hover classes originally sourced from Stack Overflow article (see more in READ.ME) */
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(35,35,35,.75);
 }
@@ -187,7 +180,29 @@ header hr {
     border-bottom: 1px solid transparent;
     color: rgba(35,35,35,.9);
     border-color: rgba(35,35,35,.5);
-} 
+}
+
+/* ------------------------------------- Page Header & Page Nav Transitions */
+/* Hover classes originally sourced from Stack Overflow article (see more in READ.ME) */
+
+.page-nav-item a {
+    text-decoration: none;
+    color:#232323;
+}
+
+.page-nav-item {
+    margin-left: 28px;
+    margin-right: 28px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.page-nav-item:hover {
+    border-color: rgba(35,35,35,.5);
+}
 
 /*---------------------------------------- Buttons */
 /* Button classes sourced from Bootstrap documentation */
