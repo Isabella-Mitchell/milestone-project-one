@@ -76,6 +76,17 @@ CONTENTS
 
 ## Design
 
+### Colour Scheme
+
+A simple and refined colour scheme has been used. The pale backgrounds of the website mimic the pale walls of the gallery space, so that the images take centre stage. 
+
+I used the (Material Design Colour Tool)[https://material.io/resources/color/#!/?view.left=0&view.right=0] to decide the footer colour. The footer colour is inkeeping with the palette yet distinguishes this section from the others on the page. 
+
+### Typography
+
+Headings are in Josefin Sans', 'Lato
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
 ## Features
 
 Note: Deciding to keep long scroll pages to reduce number of clicks (and hierarchacal navigation) Though conscious that mobile and tablet are long. To investigate back to top/ sticky nav.
