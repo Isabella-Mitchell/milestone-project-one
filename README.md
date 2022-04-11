@@ -95,8 +95,12 @@ The pages feature different image layouts, due to the type of images that need t
 - Image captions on the Exhibitions Page
 - Artist Portraits on the Artist page
 
-Consistant image ratios have been used to bring a harmony to the site across different page layouts.
-- include 16:9 and 3:4.
+Consistant aspect ratios have been used to bring a harmony to the site across different page layouts.
+- An aspect ratio of 16:9 has been used for the lead images on the Exhibition Page and Artist Page  
+- An aspect ratio of 3:2 has been used for the Homepage section images and the About Page images
+- An aspect ratio of 2:3 has been used for the Artist Page portraits.
+- A near-square aspect ratio of 400:361 has been used for the Exhibition Page for images that do not suit the aspect ratio of the Image Carousel.
+
 
 ## Features
 
