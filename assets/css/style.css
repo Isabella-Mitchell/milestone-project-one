@@ -410,3 +410,21 @@ footer hr {
         font-size: 28px;
     }
 }
+
+@media(max-width: 1024px) {
+    .homepage-section-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 320px) {
+    .homepage-section-title {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 768px) {
+    .homepage-section-text {
+        font-size: 18px;
+    }
+}
