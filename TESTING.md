@@ -69,8 +69,22 @@ Appearance, functionality and responsiveness were largely consistent across brow
 # Responsiveness
 
 Responsivity tests were carried out using Google Chrome DevTools. Device screen sizes covered include:
+    - iPhone SE
+    - iPhone XR
+    - iPhone 12 Pro
+    - Pixel 5
+    - Samsung Galaxy S8+
+    - Samsung Galaxy S20 Ultra
+    - iPad Mini
+    - iPad Air
+    - Surface Pro 7
+    - Surface Duo
+    - Galaxy Fold
+    - Samsung Galaxy A51/71
+    - Nest Hub
+    - Nest Hub Max
 
-I also tested the website on iPhone .... 
+I also personally tested the website on iPhone 12, iPad Pro 2nd Generation, Dell XPS 15 laptop and a Dell widescreen monitor.
 
 # Testing User Stories
 
@@ -85,6 +99,8 @@ I also tested the website on iPhone ....
     - On the homepage there is a section titled 'About 
 
 # Peer Review
+
+In the final stages of the project, I submitted the site for Peer Review by fellow students and alumni at Code Institute via Slack. Feedback included adding more text to the Homepage sections and making the 'Back to Top' button visible on all screen sizes, not just smaller devices. Both of these points were resolved. 
 
 # Bugs
 
