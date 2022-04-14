@@ -297,17 +297,6 @@ header hr {
     max-height: 100%;
 }
 
-/* ----------------------------------------Carousel Slideshow */
-
-.slide-one, .slide-two, .slide-three {
-    height: 40vh;
-    background: url('../images/Row-Gallery-Splash-Modern-LR-mob.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 /* ---------------------------------------- Video */
 
 video {
