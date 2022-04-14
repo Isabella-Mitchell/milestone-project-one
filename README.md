@@ -1,6 +1,8 @@
 # Row Gallery Website 
 ## Milestone Project 1 - Static Front-End Website
 
+<h2 align="center"><img src="assets/readme/screenshot-techsini-homejpg.jpg"></h2>
+
 * Row Gallery is a contemporary art gallery located in Dungeness, UK. The aim of the Row Gallery website is to appeal to prospective gallery visitors and clients. The website is designed to be responsive so that it is user-friendly and looks appealing on any device.
 
 * This is my Milestone Project 1 submission for Code Institute's Diploma in Web Application Development course. My website features five pages and is built using technologies that I have learnt including HTML and CSS.
@@ -12,17 +14,6 @@
 ## Repository
 
 [Find the project repository here](https://github.com/Isabella-Mitchell/milestone-project-one)
-
-## Screenshots 
-
-### Home Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-techsini-homejpg.jpg"></h2>
-
-### Exhibitions Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-techsini-exhibitions.jpg"></h2>
-
-### Artists Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-techsini-artists.jpg"></h2>
 
 # Table of Contents 
 
@@ -88,7 +79,6 @@
 ### Business Owners
 *These are the owners of the gallery and of the website*
 
-* As the business owner, I want to feel that my business and brand are well represented by my online presence.
 * As the business owner, I want my website to be accessible and user-friendly on any device.
 * As the business owner, I want my website to feature links to my social media channels.
 
@@ -96,7 +86,7 @@
 ## Design
 
 ### Colour Scheme
-<h2 align="center"><img src="assets/readme-images/row-gallery-colours.jpg"></h2>
+<h2 align="center"><img src="assets/readme/row-gallery-colours.jpg"></h2>
 
 - A simple and refined colour scheme has been used. The pale backgrounds of the website mimic the pale walls of the gallery space, so that the images take centre stage. 
 
@@ -112,7 +102,7 @@
 
 - Imagery is a very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
 
-- The pages feature slightly different image layouts, due to the type of images that need to be displayed. I researched art gallery websites including [Pace Gallery](https://www.pacegallery.com/) and [Arusha Gallery](https://www.arushagallery.com/) to see the types of content that they typically display on their websites. I incorporated the following into my website:
+- The pages feature slightly different image layouts, due to the type of images that need to be displayed. I researched art gallery websites (detailed in my [credits section](#credits)) to see the types of content that they typically display on their websites. I incorporated the following into my website:
     - Image Slideshows in landscape orientation on the Exhibition Page
     - Image captions on the Exhibitions Page
     - Artist Portraits on the Artist page
@@ -144,21 +134,21 @@
 - I have used the Bootstrap Navigation component. I have overridden the default opacity because, when I tested the website using Chrome Lighthouse, the colour contrast was deemed insufficient.
 - For this reason, I have also added an underline to the 'active' page and to the hover state of non-active pages.
 
-<h2 align="center"><img src="assets/readme-images/design-nav-bar.jpg"></h2>
-<h2 align="center"><img src="assets/readme-images/design-nav-bar-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-nav-bar.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-nav-bar-mobile.jpg"></h2>
 
 ### Back To Top Button
 - Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on all screen sizes and saves the user needing to scroll back up to the Navigation Bar.
 - The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
-<h2 align="center"><img src="assets/readme-images/design-back-to-top-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-back-to-top-mobile.jpg"></h2>
 
 ### Buttons
 - Buttons are consistent in design across the site. The colour of the button depends on the background colour.
 - Buttons feature a right arrow to encourage them to click and be taken to a new page.
 - Buttons change colour when hovered over. The button text is legible both in its normal and hover state.
 - I have used Bootstrap Button classes, which I have customised in the CSS.
-<h2 align="center"><img src="assets/readme-images/buttons-dark.jpg"></h2>
-<h2 align="center"><img src="assets/readme-images/buttons-light.jpg"></h2>
+<h2 align="center"><img src="assets/readme/buttons-dark.jpg"></h2>
+<h2 align="center"><img src="assets/readme/buttons-light.jpg"></h2>
 
 ### Page Heading and Sub Navigations
 - All pages other than the homepage feature a Page Heading.
@@ -166,7 +156,7 @@
 - This means that users can quickly find the section they are looking for, without needing to click through another page.
 - An underline appears underneath a link when it is hovered over. This further emphasises that this is a clickable link, and mirrors the behaviour of the main navigation bar.
 - Aria-Labels have been used to make their purpose clear to Screen Readers.
-<h2 align="center"><img src="assets/readme-images/design-page-header-highlight.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-page-header-highlight.jpg"></h2>
 
 ### Footer
 - The Footer includes the Gallery's address, phone number, email address and social media links.
@@ -174,8 +164,8 @@
 - Social Media links open in a new page.
 - The Footer remains consistent on each page.
 - The social media links code was originally sourced from Code Institute's Bootstrap CV project.
-<h2 align="center"><img src="assets/readme-images/design-footer-desktop.jpg"></h2>
-<h2 align="center"><img src="assets/readme-images/design-footer-mobile.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-footer-desktop.jpg"></h2>
+<h2 align="center"><img src="assets/readme/design-footer-mobile.jpg"></h2>
 
 ## Wireframes
 - [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
@@ -349,6 +339,8 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
     - [RSPB Dungeness](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/dungeness/) - for directions to Dungeness and things to do
     - [Dungeness Station](https://www.rhdr.org.uk/stations/dungeness-station/) - for directions to Dungeness and things to do
     - [Time Out Magazine Article](https://www.timeout.com/kent/things-to-do/best-things-to-do-in-dungeness) - for inspiration about things to Dungeness
+
+- I referred to the [GitHub Documenation](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the basis of the Deployment section of this README file. I also referred to [Code Institute's Sample README](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) for the general structure of this README file.
 
 ## Media
 
