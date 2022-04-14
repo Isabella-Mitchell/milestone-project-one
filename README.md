@@ -229,11 +229,17 @@ CONTENTS
 - [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
   - Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging.
 
-- Pexels
+- [Pexels](https://www.pexels.com/)
+  - Pexels was used to source imagery for the website
 
-- Unsplash
+- [Unsplash](https://unsplash.com/)
+  - Unsplash was used to source imagery for the website
 
-- Flexbox Froggy
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+  - I completed Flexbox Froggy during the initial build stages of the website to become more familiar with Flexbox
+
+- [Aspect Ratio Calculator](https://aspectratiocalculator.com)
+  - Aspect Ratio Calculator was used to help me decide on the dimensions of images.
 
 # Testing
 - Please refer here for more information on testing of the Row Gallery website.
@@ -302,12 +308,24 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 ## Content
 
 -   I wrote all the content for the website. The gallery, exhibitions and artists are fictious, I referred to the following sources for inspiration: 
-  - 
+  - [Tate](https://www.tate.org.uk) - for inspiration about artists, exhibitions and gallery website features.
+  - [Whitecube](https://whitecube.com/) - for inspiration about artists and exhibitions.
+  - [Pace Gallery](https://www.pacegallery.com) - for inspiration about artists, exhibitions and gallery website features.
+  - [Camden Arts Centre](https://camdenartcentre.org/) - for inspiration about artists, exhibitions and gallery website features.
+  - [Blue Shop Cottage](https://www.blueshopcottage.com/) - for inspiration about artists, exhibitions. Also referred to when researching gallery website features.
+  - [Arusha Gallery](https://www.arushagallery.com/) - for inspiration about artists, exhibitions and gallery website features.
+  - [RSPB Dungeness](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/dungeness/) - for directions to Dungeness and things to do
+  - [Dungeness Station](https://www.rhdr.org.uk/stations/dungeness-station/) - for directions to Dungeness and things to do
+  - [Time Out Magazine Article](https://www.timeout.com/kent/things-to-do/best-things-to-do-in-dungeness) - for inspiration about things to Dungeness
 
 ## Media
 
--   All Images were sourced from open source websites Pexels and Unsplash. I'd like to say a particular thank you to:
-  - 
+-   All Images were sourced from open source websites [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). I'd like to say a particular thank you to:
+  - [Anna Shvets](https://www.pexels.com/@shvetsa/) - For pictures of artists
+  - [Greta Hoffman](https://www.pexels.com/@shvetsa/) - For pictures of artists
+  - [James Hollingworth](https://unsplash.com/@jameshollingworth) - For pictures of Dungeness
+  - [Birmingham Museums Trust](https://unsplash.com/@birminghammuseumstrust) - For pictures of artworks
+
 
 ## Acknowledgements
 
