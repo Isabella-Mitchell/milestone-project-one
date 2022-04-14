@@ -72,17 +72,15 @@
 *These are users considering or already planning a trip to Dungeness and would be interested in visiting the art gallery during their trip.*
 
 * As a prospective visitor I would like to see what is currently on at the art gallery. 
-* As a prospective visitor I would like to see when the gallery is open. 
-* As a prospective visitor I would like to see information about the art gallery, and why I should pay a visit during my trip. 
-* As a prospective visitor I would like to see the art gallery location and how to get there. 
-* As a prospective visitor I would like to see what else there is to do near the art gallery.
+* As a prospective visitor I would like to see information to help me plan my visit to the gallery, including opening hours, location and directions.
+* As a prospective visitor I would like to see what amenities are near by to the art gallery.
+* As a prospective visitor I would like to be able to contact the gallery if I have any questions about my visit.
 
 ### Art Collectors 
 
 *These are users who have an interest in the works by the artists represented by the gallery and may wish to buy artworks.*
 
-* As an art collector I would like to see what artists are represented by the gallery. 
-* As an art collector I would like to see information about the artists and see examples of their work. 
+* As an art collector I would like to see what artists are represented by the gallery, I would like to read information about them and see examples of their work. 
 * As an art collector I would like to see information about the art gallery so that I know they are a respectable and trustworthy organisation. 
 * As an art collector I would like to be able to enquire about an artwork for sale. 
 * As an art collector I would like to be able to book a consultation either in person or virtually. 
