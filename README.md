@@ -28,7 +28,7 @@
   + [Typography](#typography)
   + [Imagery](#imagery)
   + [Icons](#icons)
-- [Structre](#structure)
+- [Structure](#structure)
   + [Information Architecture](#information-architecture)
   + [Navigation Bar](#navigation-bar)
   + [Back To Top Button](#back-to-top-button)
@@ -44,16 +44,16 @@
   + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
 - [Testing](#testing)
 - [Deployment](#deployment)
-  + [GitHub Pages](#gitub-pages)
+  + [GitHub Pages](#github-pages)
   + [Forking the GitHub Repository](#forking-the-github-repository)
   + [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
   + [Code](#code)
   + [Media](#media)
-  + [Content.](#content)
+  + [Content](#content)
   + [Acknowledgements](#acknowledgements)
 
-# User Experience (UX)
+# User Experience
 
 
 ## User stories

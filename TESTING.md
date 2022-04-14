@@ -16,6 +16,7 @@ The Row Gallery website has been tested using the following methods:
 - [Testing User Stories](#testing-user-stories)
     - [Prospective Visitors](#prospective-visitors)
     - [Art Collectors](#art-collectors)
+    - [Business Owners](#business-owners)
 - [Peer Review](#peer-review)
 - [Bugs](#bugs)
     - [Resolved](#resolved)
