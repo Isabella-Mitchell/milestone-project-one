@@ -21,18 +21,24 @@ Bugs
 The Row Gallery website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
+<h2 align="center"><img src="assets/readme-images/code-validator-html-code-index-page.jpg"></h2>
 
 ### Exhibitions Page
+<h2 align="center"><img src="assets/readme-images/code-validator-html-code-exhibitions-page.jpg"></h2>
 
 ### Artists Page
+<h2 align="center"><img src="assets/readme-images/code-validator-html-code-artists-page.jpg"></h2>
 
 ### About Page
+<h2 align="center"><img src="assets/readme-images/code-validator-html-code-about-page.jpg"></h2>
 
 ### Contact Page
+<h2 align="center"><img src="assets/readme-images/code-validator-html-code-contact-page.jpg"></h2>
 
 ## W3C CSS Validator
 
 The Row Gallery website passed all tests using the W3C CSS Validator tool
+<h2 align="center"><img src="assets/readme-images/code-validator-css.jpg"></h2>
 
 # Lighthouse
 
@@ -54,6 +60,8 @@ Lighthouse recommends saving images in next-gen formats and eliminating render-b
 # A11y Color Contrast Accessibility Checker
 
 All website pages were testing using the A11y Color Contrast Accessibility Checker and no automated color contrast issues found.
+
+<h2 align="center"><img src="assets/readme-images/colour-contrast-check.jpg"></h2>
 
 # Browser Compatibility
 
