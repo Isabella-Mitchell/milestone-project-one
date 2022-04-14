@@ -329,6 +329,14 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 
 ## Acknowledgements
 
--   My Mentor Akshat Garg for helpful feedback, industry insights and recommended tools.
+- Thank you to my Mentor Akshat Garg for helpful feedback, industry insights and recommended tools.
 
--   Tutor support at Code Institute for their support.
+- Thank you to fellow Code Institute students/ alumni Harry Dhillon and Chelsea Williams for participating in the peer code review.
+
+- Thank you to the Code Institute London Community for their encouragement and technical support - with special mention to Harry Dhillon for his continuous support.
+
+- Thank you to the tutors and staff at Code Institute for their support.
+
+Row Gallery is fictitious. This website is purely for the sake of the developer's portfolio and not for public consumption.
+
+Isabella Mitchell, 2022.
