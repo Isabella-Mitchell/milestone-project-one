@@ -16,13 +16,13 @@
 ## Screenshots 
 
 ### Home Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/screenshot-techsini-homejpg.jpg"></h2>
 
 ### Exhibitions Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive-exhibitions-1.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/screenshot-techsini-exhibitions.jpg"></h2>
 
 ### Artists Page Screenshot
-<h2 align="center"><img src="assets/readme-images/screenshot-am-I-responsive-artists.jpg"></h2>
+<h2 align="center"><img src="assets/readme-images/screenshot-techsini-artists.jpg"></h2>
 
 # Table of Contents 
 
@@ -68,7 +68,7 @@ CONTENTS
 
 - A simple and refined colour scheme has been used. The pale backgrounds of the website mimic the pale walls of the gallery space, so that the images take centre stage. 
 
-- The footer colour is inkeeping with the palette yet distinguishes this section from the others on the page. 
+- The footer colour is in keeping with the palette yet distinguishes this section from the others on the page. 
 
 - I used the [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0) to decide on colour choices. 
 
@@ -78,14 +78,14 @@ CONTENTS
 
 ### Imagery
 
-- Imagery is very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
+- Imagery is a very important feature of the website, as the website needs to appeal visually to users and represent the gallery in a good light. 
 
 - The pages feature slightly different image layouts, due to the type of images that need to be displayed. I researched art gallery websites including [Pace Gallery](https://www.pacegallery.com/) and [Arusha Gallery](https://www.arushagallery.com/) to see the types of content that they typically display on their websites. I incorporated the following into my website:
     - Image Slideshows in landscape orientation on the Exhibition Page
     - Image captions on the Exhibitions Page
     - Artist Portraits on the Artist page
 
-- Consistant aspect ratios have been used to bring a harmony to the site across different page layouts.
+- Consistent aspect ratios have been used to bring visual harmony to the site across different page layouts.
     - An aspect ratio of 16:9 has been used for the lead images on the Exhibition Page and Artist Page  
     - An aspect ratio of 3:2 has been used for the Homepage section images and the About Page images
     - An aspect ratio of 2:3 has been used for the Artist Page portraits.
@@ -99,32 +99,32 @@ CONTENTS
 - The website has a Homepage, and then 4 further pages; Exhibitions, Artists, About and Contact.
     - Homepage - Landing page with brief descriptions and links out to the other pages.
     - Exhibitions - Provides information (images and text) about 2 exhibitions
-    - Artists - Proivdes information (images and text) about 5 artists
+    - Artists - Provides information (images and text) about 5 artists
     - About - Provides information about the gallery plus visiting information including a map and directions
     - Contact - Provides a contact form
-- Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. For example, you can access the About page for visiting information from the Exhibitions page. This saves repeating information, and helps keep the website clean and consise.
-- I decided  to keep long scroll pages rather than introduce further landing pages to reduce number of clicks the user needs to make to find information.
+- Most pages feature buttons with 'call to actions' and internal links where appropriate, quickly directing them to relevant information on another page. For example, you can access the About page for visiting information from the Exhibitions page. This saves repeating information, and helps keep the website clean and concise.
+- I decided  to keep long scroll pages rather than introduce further landing pages to reduce the number of clicks the user needs to make to find information.
 
 ### Navigation Bar
-- Each page is featured the nav bar, allowing the user to easily navigate between them without needing to go back to the homepage.
-- The Naviagtion bar appears as a horizontal list on desktop, and a vertical drop down menu on mobile.
-- The Nav bar is not sticky, this means that the user can see more images and text on their screen.
-- I have used the Bootstrap Navigation componant. I have overridden the default opacity because, when I tested the website using Chrome Lighthouse, the colour contrast was deemed insufficient.
+- Each page is featured the navbar, allowing the user to easily navigate between them without needing to go back to the homepage.
+- The Navigation bar appears as a horizontal list on desktop, and a vertical drop down menu on mobile.
+- The Navbar is not sticky, this means that the user can see more images and text on their screen.
+- I have used the Bootstrap Navigation component. I have overridden the default opacity because, when I tested the website using Chrome Lighthouse, the colour contrast was deemed insufficient.
 - For this reason, I have also added an underline to the 'active' page and to the hover state of non-active pages.
 
 <h2 align="center"><img src="assets/readme-images/design-nav-bar.jpg"></h2>
 <h2 align="center"><img src="assets/readme-images/design-nav-bar-mobile.jpg"></h2>
 
 ### Back To Top Button
-- Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on all screen sizes, and saves user needing to scroll back up to the Navigation Bar.
+- Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on all screen sizes and saves the user needing to scroll back up to the Navigation Bar.
 - The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
 <h2 align="center"><img src="assets/readme-images/design-back-to-top-mobile.jpg"></h2>
 
-### Buttons/ CTA
+### Buttons
 - Buttons are consistent in design across the site. The colour of the button depends on the background colour.
 - Buttons feature a right arrow to encourage them to click and be taken to a new page.
-- Buttons change colour on hover state. The button text is legible both in its normal and hover state.
-- I have used a Bootstrap Button class
+- Buttons change colour when hovered over. The button text is legible both in its normal and hover state.
+- I have used Bootstrap Button classes, which I have customised in the CSS.
 <h2 align="center"><img src="assets/readme-images/buttons-dark.jpg"></h2>
 <h2 align="center"><img src="assets/readme-images/buttons-light.jpg"></h2>
 
@@ -137,10 +137,10 @@ CONTENTS
 <h2 align="center"><img src="assets/readme-images/design-page-header-highlight.jpg"></h2>
 
 ### Footer
-- The Footer includes the Gallery's address, phone number,email address and social media links.
-- The phone number and email address are tel: and mailto: links respectivaly.
+- The Footer includes the Gallery's address, phone number, email address and social media links.
+- The phone number and email address are tel: and mailto: links respectively.
 - Social Media links open in a new page.
-- The Footer remains consistant on each page.
+- The Footer remains consistent on each page.
 - The social media links code was originally sourced from Code Institute's Bootstrap CV project.
 <h2 align="center"><img src="assets/readme-images/design-footer-desktop.jpg"></h2>
 <h2 align="center"><img src="assets/readme-images/design-footer-mobile.jpg"></h2>
@@ -153,15 +153,15 @@ CONTENTS
 ## Current Features
 
 ### Responsive on all device sizes
-- Through using mobile first design I have created a website that is fully responsive on all screen sizes.
-- I have used the Bootstrap grid system and Flex classes to adjust the layout based the device screen size. This allows the images and texts to look good and be easy to read.
+- By using mobile first design I have created a website that is fully responsive on all screen sizes.
+- I have used the Bootstrap grid system and Flex classes to adjust the layout based on the device screen size. This allows the images and texts to look good and be easy to read.
 
 ### Interactive elements
 - Videos on the Artists Page feature controls so that the user can choose to play and pause them.
-- Image Caroseuls on the Exhibitions Page feature forward and back buttons that the user can use to control the images. It also includes an indicator so the user can see what slide they are on.
-- Google map iframe on the About Page show users the location of the hotel.
-- The Nav bar turns into a drop down navbar on smaller devices.
-- CSS transitions have been used on the nav bar, page sub-navigations, buttons and social media icons.
+- Image Carousels on the Exhibitions Page feature forward and back buttons that the user can use to control the images. It also includes an indicator so the user can see what slide they are on.
+- A Google map iFrame on the About Page show users the location of the hotel.
+- The Navbar turns into a drop-down menu on smaller devices.
+- CSS transitions have been used on the navbar, page sub-navigations, buttons and social media icons.
 
 ## Future Features
 
@@ -185,7 +185,7 @@ CONTENTS
 ## Frameworks Libraries and Programs
 
 - [Bootstrap 4](https://getbootstrap.com/) 
-  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox and Button classes. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form, 
+  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox and Button classes. I sourced code from the Bootstrap documentation when building the Navbar, Carousel, Buttons and Contact Form, 
   
 - [Google Fonts](https://fonts.google.com/)
   - Two fonts were imported from google fonts. Josefin Sans for the headings, and Lato for the other text.
@@ -209,10 +209,10 @@ CONTENTS
   - Balsamiq was used to create Wireframes for the project during the initial planning stage.
 
 - [Techsini](https://techsini.com/multi-mockup/)
-  - Technsini was used to help check responsiveness and take screenshots of the page at different screen sizes.
+  - Techsini was used to help check responsiveness and take screenshots of the page at different screen sizes.
 
 - [SVG Wave Generator](https://www.softr.io/tools/svg-wave-generator)
-  - Softr's SVG Wave Generator was used to make the wave image which sits ontop of the Jumbatron
+  - Softr's SVG Wave Generator was used to make the wave image which sits on top of the Jumbotron.
 
 - [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
   - Material Design's Colour Tool was used to help decide on the colour palette of the website.
@@ -230,13 +230,13 @@ CONTENTS
   - Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging.
 
 - [Pexels](https://www.pexels.com/)
-  - Pexels was used to source imagery for the website
+  - Pexels was used to source imagery for the website.
 
 - [Unsplash](https://unsplash.com/)
-  - Unsplash was used to source imagery for the website
+  - Unsplash was used to source imagery for the website.
 
 - [Flexbox Froggy](https://flexboxfroggy.com/)
-  - I completed Flexbox Froggy during the initial build stages of the website to become more familiar with Flexbox
+  - I completed Flexbox Froggy during the initial build stages of the website to become more familiar with Flexbox.
 
 - [Aspect Ratio Calculator](https://aspectratiocalculator.com)
   - Aspect Ratio Calculator was used to help me decide on the dimensions of images.
@@ -251,15 +251,15 @@ CONTENTS
 The project was deployed to GitHub Pages using these steps:
 
 1. Log in to GitHub and go to the [GitHub Repository](https://github.com/Isabella-Mitchell/milestone-project-one)
-2. Locate the Nav bar at the top of the Repository (not top of page). Click the Settings tab.
-3. Locate the Nav bar on the left hand side of the page. Click the "Pages" Section (under 'Code and automation').
+2. Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
+3. Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
 4. Under "Source", click the dropdown called "None" and select "main". Click save.
 5. The page will automatically refresh.
 6. A notification will appear at the top of the page with the [link](https://isabella-mitchell.github.io/milestone-project-one/index.html) to the deployed site. You can return to this GitHub Pages section to access the link.
 
 ## Forking the GitHub Repository
 
-Forks are used to propose changes to someone else's project, or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
+Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
 To Fork a Github Repository:
 
@@ -301,30 +301,30 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 
 ## Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System and Flexbox. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form. 
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library was used throughout the project mainly to make site responsive using the Bootstrap Grid System and Flexbox. I sourced code from the Bootstrap documentation when building the Navbar, Carousel, Buttons and Contact Form. 
 
--   [Code Institute](https://codeinstitute.net/): I referred to lessons and source code from Code Institute's Web Application Development course. I sourced code for the footer social icons from the CV Project, and reffered to the code from the Coders Coffee House project for the Google Maps iFrame.
+-   [Code Institute](https://codeinstitute.net/): I referred to lessons and source code from Code Institute's Web Application Development course. I sourced code for the footer social icons from the CV Project, and referred to the code from the Coders Coffee House project for the Google Maps iFrame.
 
 ## Content
 
--   I wrote all the content for the website. The gallery, exhibitions and artists are fictious, I referred to the following sources for inspiration: 
-  - [Tate](https://www.tate.org.uk) - for inspiration about artists, exhibitions and gallery website features.
-  - [Whitecube](https://whitecube.com/) - for inspiration about artists and exhibitions.
-  - [Pace Gallery](https://www.pacegallery.com) - for inspiration about artists, exhibitions and gallery website features.
-  - [Camden Arts Centre](https://camdenartcentre.org/) - for inspiration about artists, exhibitions and gallery website features.
-  - [Blue Shop Cottage](https://www.blueshopcottage.com/) - for inspiration about artists, exhibitions. Also referred to when researching gallery website features.
-  - [Arusha Gallery](https://www.arushagallery.com/) - for inspiration about artists, exhibitions and gallery website features.
-  - [RSPB Dungeness](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/dungeness/) - for directions to Dungeness and things to do
-  - [Dungeness Station](https://www.rhdr.org.uk/stations/dungeness-station/) - for directions to Dungeness and things to do
-  - [Time Out Magazine Article](https://www.timeout.com/kent/things-to-do/best-things-to-do-in-dungeness) - for inspiration about things to Dungeness
+-   I wrote all the content for the website. The gallery, exhibitions and artists are fictitious, I referred to the following sources for inspiration: 
+    - [Tate](https://www.tate.org.uk) - for inspiration about artists, exhibitions and gallery website features.
+    - [Whitecube](https://whitecube.com/) - for inspiration about artists and exhibitions.
+    - [Pace Gallery](https://www.pacegallery.com) - for inspiration about artists, exhibitions and gallery website features.
+    - [Camden Arts Centre](https://camdenartcentre.org/) - for inspiration about artists, exhibitions and gallery website features.
+    - [Blue Shop Cottage](https://www.blueshopcottage.com/) - for inspiration about artists, exhibitions and gallery website features.
+    - [Arusha Gallery](https://www.arushagallery.com/) - for inspiration about artists, exhibitions and gallery website features.
+    - [RSPB Dungeness](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/dungeness/) - for directions to Dungeness and things to do
+    - [Dungeness Station](https://www.rhdr.org.uk/stations/dungeness-station/) - for directions to Dungeness and things to do
+    - [Time Out Magazine Article](https://www.timeout.com/kent/things-to-do/best-things-to-do-in-dungeness) - for inspiration about things to Dungeness
 
 ## Media
 
 -   All Images were sourced from open source websites [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). I'd like to say a particular thank you to:
-  - [Anna Shvets](https://www.pexels.com/@shvetsa/) - For pictures of artists
-  - [Greta Hoffman](https://www.pexels.com/@shvetsa/) - For pictures of artists
-  - [James Hollingworth](https://unsplash.com/@jameshollingworth) - For pictures of Dungeness
-  - [Birmingham Museums Trust](https://unsplash.com/@birminghammuseumstrust) - For pictures of artworks
+    - [Anna Shvets](https://www.pexels.com/@shvetsa/) - For pictures of artists
+    - [Greta Hoffman](https://www.pexels.com/@shvetsa/) - For pictures of artists
+    - [James Hollingworth](https://unsplash.com/@jameshollingworth) - For pictures of Dungeness
+    - [Birmingham Museums Trust](https://unsplash.com/@birminghammuseumstrust) - For pictures of artworks
 
 
 ## Acknowledgements
@@ -332,79 +332,3 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
 -   My Mentor Akshat Garg for helpful feedback, industry insights and recommended tools.
 
 -   Tutor support at Code Institute for their support.
-
-Notes coding 22/03/22 - 22/03/22
-
-Spent a while picking fonts - still not convinced on Lato
-Still to confirm secondary colour - 
-Spent a while doing layout - to look more into flex - bugs like making things go to right
-Stacking guide -  https://bootstrapcreative.com/bootstrap-push-pull-column-ordering-tutorial
-Edit images first - makes life easier
-reffered to oslo hotel project
-media queries to make text center on mobile
-
-Tool used: https://www.softr.io/tools/svg-wave-generator
-Bootcamp documentation
-
-Bugs
-Images to fit in div - ended up giving up on relative/ absolute - I was confusing myself
-Nav - get to stick right
-adding justify-right to right hand image
-Added padding to section-row, make spacing fit better.
-
-Changes in design
-Might keep copy high - as suggested by mentor.
-Was looking for CSS shapes - found the wave tool and used a SVG
-
-25.03
-
-Added Footer
-Made buttons
-Improved homepage code
-Picked images
-Fewer bugs :)
-Created exhibiton page
-
-Added in hr header + footer colour - better ux
-
-check heading/ h2/ h1 on page
-
-change class names 'home'
-make better button rules
-
-Completed Froggy flex - https://flexboxfroggy.com/
-bootstrap docs
-
-27.03.22
-
-Made artists page - contined updating spacing/ added containers
-
-28.03
-
-Made visit and started about page 
-
-To do
-finish about page
-make contact page
-neaten code
-Fill with content.
-
-Bugs
-Nav move - resolved - something to do with scroll bar appearing/ not appearing.
-Buttons not flush
-How to get here spacing
-check all divs and indentation
-buttons as links
-
-
-31.03.
-
-Contact page
-Fixed jumbatron
-
-
-Questions
-Video
-Slideshow
-UX
-Using bootstrap classes/ css
