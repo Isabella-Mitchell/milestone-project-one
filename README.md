@@ -26,7 +26,41 @@
 
 # Table of Contents 
 
-CONTENTS 
+## Contents
+- [User experience](#user-experience)
+  * [User Stories](#user-stories)
+    + [Prospective visitors](#prospective-visitors)
+    + [Art Collectors](#art-collectors)
+    + [Business Owners](#business-owners)
+- [Design](#design)
+  + [Colour Scheme](#colour-scheme)
+  + [Typography](#typography)
+  + [Imagery](#imagery)
+  + [Icons](#icons)
+- [Structre](#structure)
+  + [Information Architecture](#information-architecture)
+  + [Navigation Bar](#navigation-bar)
+  + [Back To Top Button](#back-to-top-button)
+  + [Buttons](#buttons)
+  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
+  + [Footer](#footer)
+- [Wireframes](#wireframes)
+- [Features](#features)
+  + [Current Features](#current-features)
+  + [Future Features](#future-features)
+- [Technologies used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  + [GitHub Pages](#gitub-pages)
+  + [Forking the GitHub Repository](#forking-the-github-repository)
+  + [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+  + [Code](#code)
+  + [Media](#media)
+  + [Content.](#content)
+  + [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 
@@ -128,7 +162,7 @@ CONTENTS
 <h2 align="center"><img src="assets/readme-images/buttons-dark.jpg"></h2>
 <h2 align="center"><img src="assets/readme-images/buttons-light.jpg"></h2>
 
-### Page Heading & Sub Navigations.
+### Page Heading and Sub Navigations
 - All pages other than the homepage feature a Page Heading.
 - The Exhibitions, Artists and About pages feature a sub-navigation. These use ID names to allow website users to quickly jump to content.
 - This means that users can quickly find the section they are looking for, without needing to click through another page.
