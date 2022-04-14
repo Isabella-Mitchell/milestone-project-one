@@ -116,7 +116,7 @@ CONTENTS
 <h2 align="center"><img src="assets/readme-images/design-nav-bar-mobile.jpg"></h2>
 
 ### Back To Top Button
-- Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on smaller device sizes, and saves user needing to scroll back up to the Navigation Bar.
+- Pages with a lot of content feature a 'Back To Top' button. This appears at the bottom of the page on all screen sizes, and saves user needing to scroll back up to the Navigation Bar.
 - The button features an 'up' arrow, to make it clear that it will quickly send users back to the top of the page.
 <h2 align="center"><img src="assets/readme-images/design-back-to-top-mobile.jpg"></h2>
 
@@ -185,7 +185,7 @@ CONTENTS
 ## Frameworks Libraries and Programs
 
 - [Bootstrap 4](https://getbootstrap.com/) 
-  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form, 
+  - I used bootstrap throughout the site to make it responsive. The website uses Bootstrap's Containers, Grid System and Flexbox and Button classes. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form, 
   
 - [Google Fonts](https://fonts.google.com/)
   - Two fonts were imported from google fonts. Josefin Sans for the headings, and Lato for the other text.
@@ -203,15 +203,37 @@ CONTENTS
   - Gitpod was used to create my files and where I wrote the code.
 
 - [jQuery](https://jquery.com/)
-  - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+  - jQuery came with Bootstrap to make the navbar responsive.
 
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create Wireframes for the project during the initial planning stage.
 
-- [Am I responsive](http://ami.responsivedesign.is/)
-  - Am i responsive was used to take screenshots of the page at different screen sizes.
+- [Techsini](https://techsini.com/multi-mockup/)
+  - Technsini was used to help check responsiveness and take screenshots of the page at different screen sizes.
 
-ADD MORE
+- [SVG Wave Generator](https://www.softr.io/tools/svg-wave-generator)
+  - Softr's SVG Wave Generator was used to make the wave image which sits ontop of the Jumbatron
+
+- [Material Design Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
+  - Material Design's Colour Tool was used to help decide on the colour palette of the website.
+
+- [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+  - Photoshop was used to resize and edit images for the website.
+
+- [TinyPNG](https://tinypng.com/)
+  - TinyPNG was used to compress images for a faster loading time.
+
+- [WebFormatter](https://webformatter.com/html)
+  - WebFormatter was used to help beautify the code.
+
+- [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+  - Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging.
+
+- Pexels
+
+- Unsplash
+
+- Flexbox Froggy
 
 # Testing
 - Please refer here for more information on testing of the Row Gallery website.
@@ -220,32 +242,37 @@ ADD MORE
 
 ## GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using these steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/Isabella-Mitchell/milestone-project-one)
+2. Locate the Nav bar at the top of the Repository (not top of page). Click the Settings tab.
+3. Locate the Nav bar on the left hand side of the page. Click the "Pages" Section (under 'Code and automation').
+4. Under "Source", click the dropdown called "None" and select "main". Click save.
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. A notification will appear at the top of the page with the [link](https://isabella-mitchell.github.io/milestone-project-one/index.html) to the deployed site. You can return to this GitHub Pages section to access the link.
 
 ## Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+Forks are used to propose changes to someone else's project, or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+To Fork a Github Repository:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/Isabella-Mitchell/milestone-project-one)
+2. Locate the Fork button in the top-right corner of the page, click Fork.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ## Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
+
+To make a local clone:
+
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/Isabella-Mitchell/milestone-project-one)
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub AE username instead of YOUR-USERNAME:
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -255,38 +282,36 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
+> Cloning into `milestone-project-one`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
 
 # Credits
 
 ## Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System and Flexbox. I sourced code from the Bootstrap documentation when building the Nav bar, Carousel, Buttons and Contact Form. 
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Code Institute](https://codeinstitute.net/): I referred to lessons and source code from Code Institute's Web Application Development course. I sourced code for the footer social icons from the CV Project, and reffered to the code from the Coders Coffee House project for the Google Maps iFrame.
 
 ## Content
 
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   I wrote all the content for the website. The gallery, exhibitions and artists are fictious, I referred to the following sources for inspiration: 
+  - 
 
 ## Media
 
--   All Images were created by the developer.
+-   All Images were sourced from open source websites Pexels and Unsplash. I'd like to say a particular thank you to:
+  - 
 
 ## Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Akshat Garg for helpful feedback, industry insights and recommended tools.
 
 -   Tutor support at Code Institute for their support.
 
