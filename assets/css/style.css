@@ -132,7 +132,7 @@ header hr {
 
 .jumbotron {
     height: 40vh;
-    background: url('../images/Row-Gallery-Splash-Modern-LR-mob.jpg') no-repeat center;
+    background: url('../images/row-gallery-jumbotron-image-mobile.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -365,7 +365,7 @@ footer hr {
 
 @media(min-width: 992px) {
     .jumbotron {
-        background: url('../images/Row-Gallery-Splash-Modern-LR.jpg') no-repeat center;
+        background: url('../images/row-gallery-jumbotron-image-desktop.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
