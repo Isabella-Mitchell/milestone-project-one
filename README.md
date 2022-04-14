@@ -274,7 +274,7 @@
   - Aspect Ratio Calculator was used to help me decide on the dimensions of images.
 
 # Testing
-- Please refer here for more information on testing of the Row Gallery website.
+- Please refer [here](TESTING.md) for more information on testing of the Row Gallery website.
 
 # Deployment
 

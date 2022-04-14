@@ -1,18 +1,25 @@
 # Testing
 
 The Row Gallery website has been tested using the following methods:
-Code Validation
-- W3C HTML Validator
-- W3C CSS Validator
-Lighthouse
-A11y Color Contrast Accessibility Checker
-Browser Compatibility
-Responsiveness
-Testing User Stories
-Peer Review
-Bugs
-- Resolved
-- Unresolved
+- [Code Validation](#code-validation)
+    - [W3C HTML Validator](#w3c-html-validator) 
+        - [Home Page](#home-page)
+        - [Exhibitions Page](#exhibitions-page)
+        - [Artists Page](#artists-page)
+        - [About Page](#about-page)
+        - [Contact Page](#contact-page)
+    - [W3C CSS Validator](#w3c-css-validator)
+- [Lighthouse](#lighthouse)
+- [Responsiveness](#responsiveness)
+- [A11y Color Contrast Accessibility Checker](#a11y-color-contrast-accessibility-checker)
+- [Browser Compatibility](#browser-compatibility)
+- [Testing User Stories](#testing-user-stories)
+    - [Prospective Visitors](#prospective-visitors)
+    - [Art Collectors](#art-collectors)
+- [Peer Review](#peer-review)
+- [Bugs](#bugs)
+    - [Resolved](#resolved)
+    - [Unresolved](#unresolved)
 
 # Code Validation
 
@@ -158,18 +165,17 @@ In the final stages of the project, I submitted the site for Peer Review by fell
 
 # Bugs
 
-## Resolved
-- Exhibition images - what absolute amaount
-- Jumbatron image (had it set as fixed)
-- Wave
-- Google maps
+## Resolved (To complete)
+-  Images - I had issues initially getting the images to fit within the containers and resize responsively. I used max-width css properties rather than setting absolute values.
+- Jumbatron image (had it set as fixed) - The image behind the jumbatron was displaying oddly on mobile. Only a portion of the image was showing. Through debugging using Google Chrome Developer tools, I identified the cause as the ‘fixed’ property I had set. I removed this… - media queries
+- Wave - I went through several trial and error processes with the wave graphic. The best solution I found was creating this as a SVG file and using a z-index declartion to position this in front of the 
 - Footer SR in wrong place (flagged by validator)
-- Images with space in name
-- Scroll bar
+- Images with space in name (flagged by validation)
 - Ipad Image Bug! - fixed by remvoing d-flex see https://stackoverflow.com/questions/17430618/image-stretches-on-ipad-only
 
-## Unresolved
+
+## Unresolved (To complete)
 - Lighthouse feedback
 - Videos not loading as thumbnails on ipad - only play button shows until pressed and then thumbnail loads
 
-[README.md](/README.md#testing)
+Back to [README.md](/README.md#testing)
