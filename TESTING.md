@@ -180,6 +180,10 @@ I also personally tested the website on iPhone 12, iPad Pro 2nd Generation, Dell
 
 In the final stages of the project, I submitted the site for Peer Review by fellow students and alumni at Code Institute via Slack. Feedback included adding more text to the Homepage sections and making the 'Back to Top' button visible on all screen sizes, not just smaller devices. Both of these points were resolved. 
 
+I also asked a number of friends both inside and outside of the Code Institute community for feedback on my project. The feedback on the website and documentation was positive It was suggested that I add a 404.html page which I have.
+
+It was also suggested that I could remove the Homepage link from the Navigation bar as the logo is linked back to the Homepage, and also give my Github Repository a name that is more reflective of the website name and purpose. I decided not to change these as it felt like too late in the project, but it is something I will remember for future projects.
+
 # Bugs
 
 ## Resolved
