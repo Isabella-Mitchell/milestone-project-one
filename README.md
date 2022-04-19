@@ -35,6 +35,7 @@
   + [Buttons](#buttons)
   + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
   + [Footer](#footer)
+  + [404](#404)
 - [Wireframes](#wireframes)
 - [Features](#features)
   + [Current Features](#current-features)
@@ -166,6 +167,9 @@
 - The social media links code was originally sourced from Code Institute's Bootstrap CV project.
 <h2 align="center"><img src="assets/readme/design-footer-desktop.jpg"></h2>
 <h2 align="center"><img src="assets/readme/design-footer-mobile.jpg"></h2>
+
+### 404
+- I added a custom 404 error page to help the user navigate back to the hompage if they enter an incorrect URL. I created a 404.html page on my repository by following this [Github Documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site). The 404 page features the site's navbar and footer plus a title and a button back to the index.html page.
 
 ## Wireframes
 - [View my wireframes in PDF form here.](wireframes/wireframes.pdf)
