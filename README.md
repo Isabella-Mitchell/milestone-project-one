@@ -35,7 +35,7 @@
   + [Buttons](#buttons)
   + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
   + [Footer](#footer)
-  + [404](#404-page)
+  + [404 Page](#404-page)
 - [Wireframes](#wireframes)
 - [Features](#features)
   + [Current Features](#current-features)
